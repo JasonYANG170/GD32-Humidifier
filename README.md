@@ -37,7 +37,7 @@
 
 ## 喜欢这个项目，请为我点个Star ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JasonYANG170/AIOT-Phone&type=Date)](https://star-history.com/#star-history/star-history&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=JasonYANG170/GD32-Humidifier&type=Date)](https://star-history.com/#star-history/star-history&Date)
 
 
 
