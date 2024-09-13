@@ -1,0 +1,6 @@
+r
+halt
+loadfile "e:\Keil\LCKFB_GD32E230C8T6_BlankProject_2V\GD32E230C8T6\Project\build\GD32E230C_START\Project.hex"
+r
+go
+exit

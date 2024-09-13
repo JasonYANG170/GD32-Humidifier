@@ -1,0 +1,447 @@
+T4DA0 003:623.646   SEGGER J-Link V7.92k Log File
+T4DA0 003:624.607   DLL Compiled: Oct 18 2023 14:58:31
+T4DA0 003:624.624   Logging started @ 2024-07-05 09:53
+T4DA0 003:624.639   Process: C:\Keil_v5\UV4\UV4.exe
+T4DA0 003:624.804 - 3624.653ms
+T4DA0 003:624.834 JLINK_SetWarnOutHandler(...)
+T4DA0 003:624.849 - 0.014ms
+T4DA0 003:624.865 JLINK_OpenEx(...)
+T4DA0 003:625.771   
+  ***** Error: 
+T4DA0 003:625.800   Cannot connect to J-Link.
+T4DA0 003:625.903 - 1.035ms returns "Cannot connect to J-Link."
+T4DA0 003:626.121 
+  ***** Warning: 
+T4DA0 003:626.148 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T4DA0 003:626.172 JLINK_GetHardwareVersion()
+T4DA0 003:627.096   
+  ***** Error: 
+T4DA0 003:633.123   Cannot connect to J-Link.
+T4DA0 003:633.239 - 7.066ms
+T4DA0 006:139.780 
+  ***** Warning: 
+T4DA0 006:139.808 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:139.826 JLINK_SetSpeed(50000)
+T4DA0 006:141.236   
+  ***** Error: 
+T4DA0 006:141.258   Cannot connect to J-Link.
+T4DA0 006:141.392 - 1.565ms
+T4DA0 006:141.412 JLINK_HasError()
+T4DA0 006:141.424 
+  ***** Warning: 
+T4DA0 006:141.434 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:141.445 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:142.618   
+  ***** Error: 
+T4DA0 006:142.633   Cannot connect to J-Link.
+T4DA0 006:142.740 - 1.294ms
+T4DA0 006:142.753 
+  ***** Warning: 
+T4DA0 006:142.763 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:142.776 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:143.896   
+  ***** Error: 
+T4DA0 006:143.910   Cannot connect to J-Link.
+T4DA0 006:144.007 - 1.231ms
+T4DA0 006:144.020 
+  ***** Warning: 
+T4DA0 006:144.030 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:144.042 JLINK_SetSpeed(33000)
+T4DA0 006:145.129   
+  ***** Error: 
+T4DA0 006:145.143   Cannot connect to J-Link.
+T4DA0 006:145.242 - 1.199ms
+T4DA0 006:145.254 JLINK_HasError()
+T4DA0 006:145.264 
+  ***** Warning: 
+T4DA0 006:145.274 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:145.285 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:146.375   
+  ***** Error: 
+T4DA0 006:146.389   Cannot connect to J-Link.
+T4DA0 006:146.486 - 1.200ms
+T4DA0 006:146.498 
+  ***** Warning: 
+T4DA0 006:146.508 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:146.521 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:147.605   
+  ***** Error: 
+T4DA0 006:147.620   Cannot connect to J-Link.
+T4DA0 006:147.716 - 1.195ms
+T4DA0 006:147.728 
+  ***** Warning: 
+T4DA0 006:147.738 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:147.750 JLINK_SetSpeed(25000)
+T4DA0 006:148.888   
+  ***** Error: 
+T4DA0 006:148.902   Cannot connect to J-Link.
+T4DA0 006:149.001 - 1.250ms
+T4DA0 006:149.013 JLINK_HasError()
+T4DA0 006:149.022 
+  ***** Warning: 
+T4DA0 006:149.032 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:149.043 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:150.129   
+  ***** Error: 
+T4DA0 006:150.143   Cannot connect to J-Link.
+T4DA0 006:150.242 - 1.198ms
+T4DA0 006:150.253 
+  ***** Warning: 
+T4DA0 006:150.263 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:150.275 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:151.357   
+  ***** Error: 
+T4DA0 006:151.371   Cannot connect to J-Link.
+T4DA0 006:151.468 - 1.192ms
+T4DA0 006:151.480 
+  ***** Warning: 
+T4DA0 006:151.490 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:151.502 JLINK_SetSpeed(20000)
+T4DA0 006:152.591   
+  ***** Error: 
+T4DA0 006:152.605   Cannot connect to J-Link.
+T4DA0 006:152.704 - 1.201ms
+T4DA0 006:152.716 JLINK_HasError()
+T4DA0 006:152.725 
+  ***** Warning: 
+T4DA0 006:152.735 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:152.747 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:154.222   
+  ***** Error: 
+T4DA0 006:154.285   Cannot connect to J-Link.
+T4DA0 006:154.436 - 1.689ms
+T4DA0 006:154.452 
+  ***** Warning: 
+T4DA0 006:154.462 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:154.477 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:155.878   
+  ***** Error: 
+T4DA0 006:155.893   Cannot connect to J-Link.
+T4DA0 006:156.000 - 1.522ms
+T4DA0 006:156.012 
+  ***** Warning: 
+T4DA0 006:156.022 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:156.035 JLINK_SetSpeed(10000)
+T4DA0 006:157.150   
+  ***** Error: 
+T4DA0 006:157.164   Cannot connect to J-Link.
+T4DA0 006:157.263 - 1.228ms
+T4DA0 006:157.276 JLINK_HasError()
+T4DA0 006:157.285 
+  ***** Warning: 
+T4DA0 006:157.295 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:157.307 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:158.410   
+  ***** Error: 
+T4DA0 006:158.424   Cannot connect to J-Link.
+T4DA0 006:158.522 - 1.215ms
+T4DA0 006:158.534 
+  ***** Warning: 
+T4DA0 006:158.544 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:158.556 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:159.651   
+  ***** Error: 
+T4DA0 006:159.665   Cannot connect to J-Link.
+T4DA0 006:159.762 - 1.205ms
+T4DA0 006:159.774 
+  ***** Warning: 
+T4DA0 006:159.784 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:159.796 JLINK_SetSpeed(5000)
+T4DA0 006:160.888   
+  ***** Error: 
+T4DA0 006:160.902   Cannot connect to J-Link.
+T4DA0 006:160.999 - 1.202ms
+T4DA0 006:161.011 JLINK_HasError()
+T4DA0 006:161.020 
+  ***** Warning: 
+T4DA0 006:161.030 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:161.042 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:162.138   
+  ***** Error: 
+T4DA0 006:162.152   Cannot connect to J-Link.
+T4DA0 006:162.249 - 1.207ms
+T4DA0 006:162.261 
+  ***** Warning: 
+T4DA0 006:162.271 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:162.284 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:163.390   
+  ***** Error: 
+T4DA0 006:163.405   Cannot connect to J-Link.
+T4DA0 006:163.503 - 1.219ms
+T4DA0 006:163.515 
+  ***** Warning: 
+T4DA0 006:163.525 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:163.537 JLINK_SetSpeed(3000)
+T4DA0 006:164.673   
+  ***** Error: 
+T4DA0 006:164.688   Cannot connect to J-Link.
+T4DA0 006:164.787 - 1.249ms
+T4DA0 006:164.799 JLINK_HasError()
+T4DA0 006:164.809 
+  ***** Warning: 
+T4DA0 006:164.819 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:164.830 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:165.922   
+  ***** Error: 
+T4DA0 006:165.936   Cannot connect to J-Link.
+T4DA0 006:166.032 - 1.201ms
+T4DA0 006:166.044 
+  ***** Warning: 
+T4DA0 006:166.054 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:166.066 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:167.152   
+  ***** Error: 
+T4DA0 006:167.166   Cannot connect to J-Link.
+T4DA0 006:167.262 - 1.195ms
+T4DA0 006:167.274 
+  ***** Warning: 
+T4DA0 006:167.284 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:167.296 JLINK_SetSpeed(2000)
+T4DA0 006:168.383   
+  ***** Error: 
+T4DA0 006:168.398   Cannot connect to J-Link.
+T4DA0 006:168.494 - 1.198ms
+T4DA0 006:168.506 JLINK_HasError()
+T4DA0 006:168.516 
+  ***** Warning: 
+T4DA0 006:168.526 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:168.537 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:169.686   
+  ***** Error: 
+T4DA0 006:169.700   Cannot connect to J-Link.
+T4DA0 006:169.798 - 1.261ms
+T4DA0 006:169.810 
+  ***** Warning: 
+T4DA0 006:169.820 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:169.833 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:170.915   
+  ***** Error: 
+T4DA0 006:170.929   Cannot connect to J-Link.
+T4DA0 006:171.024 - 1.191ms
+T4DA0 006:171.036 
+  ***** Warning: 
+T4DA0 006:171.046 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:171.095 JLINK_SetSpeed(1000)
+T4DA0 006:172.182   
+  ***** Error: 
+T4DA0 006:172.196   Cannot connect to J-Link.
+T4DA0 006:172.295 - 1.199ms
+T4DA0 006:172.308 JLINK_HasError()
+T4DA0 006:172.323 
+  ***** Warning: 
+T4DA0 006:172.332 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:172.344 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:173.448   
+  ***** Error: 
+T4DA0 006:173.462   Cannot connect to J-Link.
+T4DA0 006:173.582 - 1.237ms
+T4DA0 006:173.594 
+  ***** Warning: 
+T4DA0 006:173.604 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:173.616 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:174.699   
+  ***** Error: 
+T4DA0 006:174.714   Cannot connect to J-Link.
+T4DA0 006:174.811 - 1.194ms
+T4DA0 006:174.823 
+  ***** Warning: 
+T4DA0 006:174.833 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:174.845 JLINK_SetSpeed(500)
+T4DA0 006:175.923   
+  ***** Error: 
+T4DA0 006:175.937   Cannot connect to J-Link.
+T4DA0 006:176.033 - 1.188ms
+T4DA0 006:176.045 JLINK_HasError()
+T4DA0 006:176.054 
+  ***** Warning: 
+T4DA0 006:176.064 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:176.076 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:177.155   
+  ***** Error: 
+T4DA0 006:177.170   Cannot connect to J-Link.
+T4DA0 006:177.266 - 1.190ms
+T4DA0 006:177.278 
+  ***** Warning: 
+T4DA0 006:177.287 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:177.300 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:178.390   
+  ***** Error: 
+T4DA0 006:178.404   Cannot connect to J-Link.
+T4DA0 006:178.501 - 1.200ms
+T4DA0 006:178.513 
+  ***** Warning: 
+T4DA0 006:178.523 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:178.535 JLINK_SetSpeed(200)
+T4DA0 006:179.657   
+  ***** Error: 
+T4DA0 006:179.671   Cannot connect to J-Link.
+T4DA0 006:179.768 - 1.232ms
+T4DA0 006:179.780 JLINK_HasError()
+T4DA0 006:179.790 
+  ***** Warning: 
+T4DA0 006:179.799 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:179.811 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:180.895   
+  ***** Error: 
+T4DA0 006:180.909   Cannot connect to J-Link.
+T4DA0 006:181.006 - 1.194ms
+T4DA0 006:181.018 
+  ***** Warning: 
+T4DA0 006:181.028 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:181.043 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:182.140   
+  ***** Error: 
+T4DA0 006:182.154   Cannot connect to J-Link.
+T4DA0 006:182.251 - 1.206ms
+T4DA0 006:182.262 
+  ***** Warning: 
+T4DA0 006:182.272 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:182.285 JLINK_SetSpeed(100)
+T4DA0 006:183.371   
+  ***** Error: 
+T4DA0 006:183.385   Cannot connect to J-Link.
+T4DA0 006:183.481 - 1.195ms
+T4DA0 006:183.493 JLINK_HasError()
+T4DA0 006:183.502 
+  ***** Warning: 
+T4DA0 006:183.512 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:183.524 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:184.646   
+  ***** Error: 
+T4DA0 006:184.660   Cannot connect to J-Link.
+T4DA0 006:184.760 - 1.235ms
+T4DA0 006:184.772 
+  ***** Warning: 
+T4DA0 006:184.781 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:184.794 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:185.890   
+  ***** Error: 
+T4DA0 006:185.904   Cannot connect to J-Link.
+T4DA0 006:186.001 - 1.206ms
+T4DA0 006:186.013 
+  ***** Warning: 
+T4DA0 006:186.023 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:186.035 JLINK_SetSpeed(50)
+T4DA0 006:187.141   
+  ***** Error: 
+T4DA0 006:187.156   Cannot connect to J-Link.
+T4DA0 006:187.252 - 1.216ms
+T4DA0 006:187.264 JLINK_HasError()
+T4DA0 006:187.274 
+  ***** Warning: 
+T4DA0 006:187.283 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:187.295 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:188.371   
+  ***** Error: 
+T4DA0 006:188.387   Cannot connect to J-Link.
+T4DA0 006:188.483 - 1.187ms
+T4DA0 006:188.495 
+  ***** Warning: 
+T4DA0 006:188.505 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:188.517 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:189.601   
+  ***** Error: 
+T4DA0 006:189.615   Cannot connect to J-Link.
+T4DA0 006:189.712 - 1.195ms
+T4DA0 006:189.724 
+  ***** Warning: 
+T4DA0 006:189.734 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:189.746 JLINK_SetSpeed(20)
+T4DA0 006:190.834   
+  ***** Error: 
+T4DA0 006:190.848   Cannot connect to J-Link.
+T4DA0 006:190.944 - 1.197ms
+T4DA0 006:190.956 JLINK_HasError()
+T4DA0 006:190.965 
+  ***** Warning: 
+T4DA0 006:190.974 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:190.986 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:192.070   
+  ***** Error: 
+T4DA0 006:192.084   Cannot connect to J-Link.
+T4DA0 006:192.180 - 1.193ms
+T4DA0 006:192.192 
+  ***** Warning: 
+T4DA0 006:192.202 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:192.214 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:193.303   
+  ***** Error: 
+T4DA0 006:193.318   Cannot connect to J-Link.
+T4DA0 006:193.415 - 1.200ms
+T4DA0 006:193.427 
+  ***** Warning: 
+T4DA0 006:193.436 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:193.449 JLINK_SetSpeed(10)
+T4DA0 006:194.578   
+  ***** Error: 
+T4DA0 006:194.593   Cannot connect to J-Link.
+T4DA0 006:194.691 - 1.242ms
+T4DA0 006:194.703 JLINK_HasError()
+T4DA0 006:194.712 
+  ***** Warning: 
+T4DA0 006:194.722 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:194.734 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:195.810   
+  ***** Error: 
+T4DA0 006:195.824   Cannot connect to J-Link.
+T4DA0 006:195.919 - 1.185ms
+T4DA0 006:195.931 
+  ***** Warning: 
+T4DA0 006:195.941 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:195.953 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:197.032   
+  ***** Error: 
+T4DA0 006:197.046   Cannot connect to J-Link.
+T4DA0 006:197.141 - 1.187ms
+T4DA0 006:197.153 
+  ***** Warning: 
+T4DA0 006:197.163 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T4DA0 006:197.175 JLINK_SetSpeed(5)
+T4DA0 006:198.260   
+  ***** Error: 
+T4DA0 006:198.275   Cannot connect to J-Link.
+T4DA0 006:198.378 - 1.202ms
+T4DA0 006:198.390 JLINK_HasError()
+T4DA0 006:198.399 
+  ***** Warning: 
+T4DA0 006:198.409 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T4DA0 006:198.421 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:199.557   
+  ***** Error: 
+T4DA0 006:199.572   Cannot connect to J-Link.
+T4DA0 006:199.669 - 1.248ms
+T4DA0 006:199.681 
+  ***** Warning: 
+T4DA0 006:199.691 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T4DA0 006:199.703 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T4DA0 006:200.779   
+  ***** Error: 
+T4DA0 006:200.794   Cannot connect to J-Link.
+T4DA0 006:200.889 - 1.186ms
+T4DA0 006:201.638 JLINK_IsOpen()
+T4DA0 006:201.655 - 0.011ms returns 0x00
+T4DA0 006:201.666 JLINK_EMU_SelectByUSBSN(SerialNo = 0)
+T4DA0 006:202.765 - 1.100ms returns 0xFFFFFFFF
+T4DA0 006:202.779 JLINK_EnableLog(...)
+T4DA0 006:202.786 - 0.007ms
+T4DA0 006:202.794 JLINK_SetLogFile(...)
+T4DA0 006:202.801 - 0.007ms
+T4DA0 006:202.810 JLINK_SetWarnOutHandler(...)
+T4DA0 006:202.817 - 0.006ms
+T4DA0 006:202.825 JLINK_OpenEx(...)
+T4DA0 006:203.947   
+  ***** Error: 
+T4DA0 006:203.962   Cannot connect to J-Link.
+T4DA0 006:204.079 - 1.253ms returns "Cannot connect to J-Link."
+T4DA0 006:204.334 
+  ***** Warning: 
+T4DA0 006:204.348 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T4DA0 006:204.360 JLINK_GetHardwareVersion()
+T4DA0 006:205.469   
+  ***** Error: 
+T4DA0 006:205.483   Cannot connect to J-Link.
+T4DA0 006:205.584 - 1.223ms
+T4DA0 007:134.708 JLINK_Close()
+T4DA0 007:134.877 - 0.169ms
+T4DA0 007:134.891   
+T4DA0 007:134.898   Closed
