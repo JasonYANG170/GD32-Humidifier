@@ -1,0 +1,131 @@
+{
+    "name": "Project",
+    "target": "GD32E230C_START",
+    "toolchain": "AC6",
+    "toolchainLocation": "C:\\Keil_v5\\ARM\\ARMCLANG",
+    "toolchainCfgFile": "c:\\Users\\qw200\\.vscode\\extensions\\cl.eide-3.18.1\\res\\data\\models\\win32/arm.v6.model.json",
+    "buildMode": "fast|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 16,
+    "rootDir": "e:\\Keil\\LCKFB_GD32E230C8T6_BlankProject_2V\\GD32E230C8T6\\Project",
+    "dumpPath": "build\\GD32E230C_START",
+    "outDir": "build\\GD32E230C_START",
+    "ram": 8192,
+    "rom": 65536,
+    "incDirs": [
+        "../Firmware/GD32E23x_standard_peripheral/Include",
+        "../Firmware/CMSIS",
+        "../Firmware/CMSIS/GD/GD32E23x/Include",
+        "../User",
+        "../Hardware",
+        "../Hardware/usart",
+        ".cmsis/include",
+        "RTE/_GD32E230C_START"
+    ],
+    "libDirs": [],
+    "defines": [
+        "GD32E230",
+        "GD32E23x",
+        ""
+    ],
+    "sourceList": [
+        "../Firmware/CMSIS/GD/GD32E23x/Source/ARM/startup_gd32e23x.s",
+        "../Firmware/CMSIS/GD/GD32E23x/Source/system_gd32e23x.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_adc.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_cmp.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_crc.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_dbg.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_dma.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_exti.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_fmc.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_fwdgt.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_gpio.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_i2c.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_misc.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_pmu.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_rcu.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_rtc.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_spi.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_syscfg.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_timer.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_usart.c",
+        "../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_wwdgt.c",
+        "../Hardware/usart/bsp_usart.c",
+        "../User/gd32e23x_it.c",
+        "../User/main.c",
+        "../User/systick.c"
+    ],
+    "sourceParams": {},
+    "sourceParamsMtime": 1720169941801.2712,
+    "options": {
+        "version": 3,
+        "beforeBuildTasks": [],
+        "afterBuildTasks": [
+            {
+                "name": "Copy linker output for Keil User Commands",
+                "command": "copy \".\\${OutDirBase}\\${ProjectName}.axf\" \".\\${OutDirBase}\\${KEIL_OUTPUT_NAME}.axf\"",
+                "disable": false,
+                "abortAfterFailed": true
+            }
+        ],
+        "global": {
+            "use-microLIB": true,
+            "output-debug-info": "enable",
+            "microcontroller-cpu": "cortex-m23",
+            "microcontroller-fpu": "cortex-m23",
+            "microcontroller-float": "cortex-m23",
+            "target": "cortex-m23"
+        },
+        "c/cpp-compiler": {
+            "optimization": "level-0",
+            "language-c": "c99",
+            "language-cpp": "c++11",
+            "link-time-optimization": false,
+            "one-elf-section-per-function": true,
+            "short-enums#wchar": true,
+            "warnings": "ac5-like-warnings"
+        },
+        "asm-compiler": {
+            "$use": "asm-auto"
+        },
+        "linker": {
+            "output-format": "elf",
+            "misc-controls": "--diag_suppress=L6329",
+            "xo-base": "",
+            "ro-base": "0x08000000",
+            "rw-base": "0x20000000",
+            "$disableOutputTask": true,
+            "link-scatter": [
+                "\"e:/Keil/LCKFB_GD32E230C8T6_BlankProject_2V/GD32E230C8T6/Project/build/GD32E230C_START/Project.sct\""
+            ]
+        }
+    },
+    "env": {
+        "KEIL_OUTPUT_NAME": "GD32E230C_START",
+        "workspaceFolder": "e:\\Keil\\LCKFB_GD32E230C8T6_BlankProject_2V\\GD32E230C8T6\\Project",
+        "workspaceFolderBasename": "Project",
+        "OutDir": "e:\\Keil\\LCKFB_GD32E230C8T6_BlankProject_2V\\GD32E230C8T6\\Project\\build\\GD32E230C_START",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\GD32E230C_START",
+        "ProjectName": "Project",
+        "ConfigName": "GD32E230C_START",
+        "ProjectRoot": "e:\\Keil\\LCKFB_GD32E230C8T6_BlankProject_2V\\GD32E230C8T6\\Project",
+        "ExecutableName": "e:\\Keil\\LCKFB_GD32E230C8T6_BlankProject_2V\\GD32E230C8T6\\Project\\build\\GD32E230C_START\\Project",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "ToolchainRoot": "C:\\Keil_v5\\ARM\\ARMCLANG"
+    },
+    "sha": {
+        "c/cpp-defines": "1bf0e1b0bde2422671096546fd409989",
+        "beforeBuildTasks": "d751713988987e9331980363e24189ce",
+        "afterBuildTasks": "01e36df0e9fdd5eeb172bad6e5e11020",
+        "global": "70be55af2fd1fbaef15eb62309267152",
+        "c/cpp-compiler": "2a4c1707799fd9d4bbc0a626f7141060",
+        "asm-compiler": "f16bc066fd83f6b0cf6cd2b7eea65136",
+        "linker": "ecd28deec43d5e863405080ffa843a27"
+    }
+}

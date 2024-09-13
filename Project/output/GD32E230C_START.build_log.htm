@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: YANG ZHE, Singapo, LIC=VGXG8-3C82Q-SB3EJ-UK8BJ-Z5PIV-9LT1J
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      CMSIS_AGDI_V8M.DLL V1.8.1.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\MCU\Keil\LCKFB_GD32E230C8T6_BlankProject_2V\GD32E230C8T6\Project\Project.uvprojx
+Project File Date:  09/04/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'GD32E230C_START'
+compiling gd32e23x_it.c...
+compiling bsp_usart.c...
+compiling OLED_I2C.c...
+compiling system_gd32e23x.c...
+assembling startup_gd32e23x.s...
+compiling gd32e23x_adc.c...
+compiling gd32e23x_dbg.c...
+../User/main.c(54): warning: passing 'char[15]' to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   54 |             OLED_ShowStr(0, 5, "Humidifier:OFF", 2);
+      |                                ^~~~~~~~~~~~~~~~
+../Hardware/OLED\OLED_I2C.h(41): note: passing argument to parameter 'ch' here
+   41 | void OLED_ShowStr(unsigned char x, unsigned char y, unsigned char ch[], unsigned char TextSize);
+      |                                                                   ^
+../User/main.c(57): warning: passing 'char[15]' to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   57 |             OLED_ShowStr(0, 5, "Humidifier:ON ", 2);
+      |                                ^~~~~~~~~~~~~~~~
+../Hardware/OLED\OLED_I2C.h(41): note: passing argument to parameter 'ch' here
+   41 | void OLED_ShowStr(unsigned char x, unsigned char y, unsigned char ch[], unsigned char TextSize);
+      |                                                                   ^
+2 warnings generated.
+compiling main.c...
+compiling gd32e23x_exti.c...
+compiling gd32e23x_cmp.c...
+compiling gd32e23x_crc.c...
+compiling delay.c...
+compiling systick.c...
+compiling gd32e23x_fwdgt.c...
+compiling gd32e23x_fmc.c...
+compiling gd32e23x_dma.c...
+compiling gd32e23x_misc.c...
+compiling gd32e23x_gpio.c...
+compiling gd32e23x_pmu.c...
+compiling gd32e23x_i2c.c...
+compiling gd32e23x_rcu.c...
+compiling gd32e23x_rtc.c...
+compiling gd32e23x_syscfg.c...
+compiling gd32e23x_wwdgt.c...
+compiling gd32e23x_spi.c...
+compiling gd32e23x_usart.c...
+compiling gd32e23x_timer.c...
+linking...
+Program Size: Code=9214 RO-data=2370 RW-data=4 ZI-data=5180  
+".\output\GD32E230C_START.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: GigaDevice
+                https://gd32mcu.com/data/documents/pack/GigaDevice.GD32E23x_DFP.1.0.2.pack
+                GigaDevice::GD32E23x_DFP@1.0.2
+                GigaDevice GD32E23x Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_GD32E230C_START
+  C:/Users/qw200/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/qw200/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/1.0.2/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
