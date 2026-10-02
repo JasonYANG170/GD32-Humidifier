@@ -1,7 +1,7 @@
 [简体中文](README.md) | [English](README_en.md)
 
 <div align="center">
-    <h1>GD32-Humidifier智能加湿器</h1>
+    <h1>GD32-Humidifier smart humidifier </h1>
 
 
 ![Static Badge](https://img.shields.io/badge/License-CC_BY_NC_SA_4.0-green?style=for-the-badge)
@@ -9,41 +9,41 @@
 [![Discord](https://img.shields.io/discord/978108215499816980?style=social&logo=discord&label=echosec)](https://discord.com/invite/az3ceRmgVe)
 
 
-这是一项基于C语言Keil5的GD32-Humidifier智能加湿器工程
+This is a GD32-Humidifier smart humidifier project based on C language Keil5
 
 </div>
 
 
 
 
-## 功能
-- ✅支持4个加湿片同时工作
-- ✅支持环境温湿度检测
-- ✅支持环境温湿度自适应控制
-- ✅支持手动调节温湿度
-- ✅支持屏幕显示
+## Features
+- ✅Four humidifier transducers can operate simultaneously
+- ✅Supports environmental temperature and humidity detection
+- ✅Supports adaptive control of ambient temperature and humidity
+- ✅Support manual adjustment of temperature and humidity
+- ✅Support screen display
 
-如遇问题，请向我提出issues
+If you encounter any problems, please submit issues to me
 
 
-## 项目参数
+## Project parameters
 
-* 本设计采用GD32E230C8T6主控，以实现较低成本；
-* 本设计采用AHT10，以实现环境监测；
-* 本设计采用SSH1106 OLED，以实现数据显示；
+* This design uses GD32E230C8T6 master control to achieve lower cost;
+* This design uses AHT10 to achieve environmental monitoring;
+* This design uses SSH1106 OLED to achieve data display;
 
-## 开源协议
-本项目遵循CC BY-NC-SA 4.0开源协议，使用本程序时请注明出处并进行版权声明  
-本项目仅供学习研究与学习，严禁非授权的商业获利，  
-如果您有更好的建议，欢迎PR
+## Open Source Agreement
+This project follows the CC BY-NC-SA 4.0 open source agreement. When using this program, please indicate the source and make a copyright statement.
+This project is for study, research and study only, and unauthorized commercial profits are strictly prohibited.
+If you have better suggestions, please PR
 
-## 喜欢这个项目，请为我点个Star ⭐
+## If you like this project, please give me a star ⭐
 
 [![Star History Chart](https://api.star-history.com/svg?repos=JasonYANG170/GD32-Humidifier&type=Date)](https://star-history.com/#star-history/star-history&Date)
 
 
 
-## 实物图
+## Actual picture
 
 | 1 | 2 |
 | --- | --- |
